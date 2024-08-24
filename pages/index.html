@@ -14,7 +14,7 @@
     <div class="d-flex">
       <%- include('./layout/header',{page: 'index'}); -%>
 
-      <main class="px-3 w-100">
+      <main class="px-3 content">
         <div class="container">
           <div class="row">
             <nav
@@ -253,6 +253,34 @@
                   </div>
                 </div>
               </div>
+              <div class=" d-flex align-items-center mt-3  position-relative">
+                <ul class="list-unstyled d-flex  me-auto">
+                  <li><a href="#"><span class="material-symbols-outlined icon ">
+                    chevron_left
+                    </span></a></li>
+                  <li class="ms-3"><a href="#"><span class="material-symbols-outlined icon ">
+                    chevron_right
+                    </span></a></li>
+                </ul>
+           
+
+                  <button type="btn" class="btn btn-outline-success me-4">Mark as read</button><button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Reply
+                  </button>
+                  <div class="collapse position-absolute  bottom-0 end-0" id="collapseExample">
+                    <div class="card card-body align-items-end">
+                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                      <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Reply
+                      </button>
+                    </div>
+
+                  </div>
+           
+              </div>
+
+           
+
             </section>
           </div>
         </div>

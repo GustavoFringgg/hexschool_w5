@@ -34,3 +34,11 @@ p {
 .icon-unfilled {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
+
+.material-symbols-outlined-icon {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" -25, "opsz" 48;
+}
+
+.icon {
+  vertical-align: middle; /* 將圖標垂直對齊 */
+}
