@@ -11,55 +11,10 @@
     />
   </head>
   <body>
-    <div class="d-flex">
+
       <%- include('./layout/header',{page: 'dashboard'}); -%>
+      <h1>dashboard</h1>
 
-      <main class="px-3 content">
-        <nav
-          class="navbar navbar-expand-lg w-100 justify-content-between d-flex px-0"
-        >
-          <div class="d-flex">
-            <h1 class="navbar-brand pe-2 fw-bold">Assignment</h1>
-
-            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDarkDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    All Courses
-                  </a>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDarkDropdownMenuLink"
-                  >
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="d-flex">
-            <a href="#"><span class="material-symbols-outlined">search</span></a
-            ><a href="#"
-              ><span class="material-symbols-outlined ms-4"
-                >notifications_active</span
-              ></a
-            >
-          </div>
-        </nav>
-      </main>
     </div>
     <script type="module" src="../main.js"></script>
   </body>
